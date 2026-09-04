@@ -1,0 +1,47 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# EasyOCR model cache
+.EasyOCR/
+easyocr_models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploaded prescription images (never commit real patient data)
+uploads/
+*.jpg
+*.jpeg
+*.png
+!README_assets/*.png
+
+# Docker
+*.log
