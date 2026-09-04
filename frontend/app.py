@@ -18,7 +18,7 @@ load_dotenv()
 
 BACKEND_URL = os.getenv(
     "BACKEND_URL",
-    "http://localhost:8000"
+    "https://prescriptionlens-ai.onrender.com"
 )
 
 
